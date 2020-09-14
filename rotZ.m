@@ -2,7 +2,7 @@
 %
 %   [R] = rotZ(theta)
 %
-%   R = rotation matrix
+%   R = rotation matrix (3x3 matrix)
 %
 %   theta = angle (rad)
 %

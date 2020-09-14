@@ -2,7 +2,7 @@
 %
 %   [R] = rpy2Rot(roll, pitch, yaw)
 %
-%   R = rotation matrix
+%   R = rotation matrix (3x3 matrix)
 %
 %   roll = roll angle (rad)
 %   pitch = pitch angle (rad)
