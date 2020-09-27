@@ -21,7 +21,7 @@ function [t] = transform2Twist(T)
         v = d;
     else
         Omega = k*theta;
-        v = (sin(theta)/(2*(1-cos(theta)))*eye(3) + (2*(1-cos(theta)-theta*sin(theta)))/(2*theta*(1-cos(theta)))*k*k'-0.5*cpMap(k))*d;
+        v = (sin(theta)/(2*(1-cos(theta)))*eye(3) + (2*(1-cos(theta))-theta*sin(theta))/(2*theta*(1-cos(theta)))*(k*k')-0.5*cpMap(k))*d;
     end
     
     t = [v; Omega];
